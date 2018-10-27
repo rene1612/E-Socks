@@ -6769,78 +6769,6 @@ Source: http://www.leotronics.co.uk/Conexcon/Data%20Sheets/sec.%20A/1296ing.pdf<
 </deviceset>
 </devicesets>
 </library>
-<library name="switch-misc">
-<description>&lt;b&gt;Switches&lt;/b&gt;&lt;p&gt;
-Marquardt, RAFI, ITT, TYCO and others&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="TMAV433BAA">
-<wire x1="-0.635" y1="-2.0638" x2="0.635" y2="-2.0638" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-2.0638" x2="0.635" y2="-1.5875" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-1.5875" x2="-0.635" y2="-1.5875" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="-1.5875" x2="-0.635" y2="-2.0638" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="-1.5875" x2="-0.9526" y2="-1.5875" width="0.127" layer="21"/>
-<wire x1="-0.9526" y1="-1.5875" x2="-1.1113" y2="-1.4288" width="0.127" layer="21" curve="-90"/>
-<wire x1="-0.635" y1="2.0638" x2="-0.635" y2="1.5875" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="1.5875" x2="0.635" y2="1.5875" width="0.127" layer="21"/>
-<wire x1="0.635" y1="1.5875" x2="0.635" y2="2.0638" width="0.127" layer="21"/>
-<wire x1="0.635" y1="2.0638" x2="-0.635" y2="2.0638" width="0.127" layer="21"/>
-<wire x1="-1.1113" y1="-1.4288" x2="-1.1113" y2="1.4287" width="0.127" layer="21"/>
-<wire x1="-1.1113" y1="1.4287" x2="-0.9525" y2="1.5875" width="0.127" layer="21" curve="-90"/>
-<wire x1="-0.9525" y1="1.5875" x2="-0.635" y2="1.5875" width="0.127" layer="21"/>
-<wire x1="-0.4763" y1="-1.1113" x2="0.4763" y2="-1.1113" width="0.127" layer="21"/>
-<wire x1="0.4763" y1="-1.1113" x2="0.4763" y2="1.1113" width="0.127" layer="21"/>
-<wire x1="0.4763" y1="1.1113" x2="-0.4763" y2="1.1113" width="0.127" layer="21"/>
-<wire x1="-0.4763" y1="1.1113" x2="-0.4763" y2="-1.1113" width="0.127" layer="21"/>
-<wire x1="0.635" y1="1.5875" x2="0.9526" y2="1.5875" width="0.127" layer="21"/>
-<wire x1="0.9526" y1="1.5875" x2="1.1113" y2="1.4288" width="0.127" layer="21" curve="-90"/>
-<wire x1="1.1113" y1="1.4288" x2="1.1113" y2="-1.4288" width="0.127" layer="21"/>
-<wire x1="1.1113" y1="-1.4288" x2="0.9525" y2="-1.5875" width="0.127" layer="21" curve="-90.036092"/>
-<wire x1="0.9525" y1="-1.5875" x2="0.635" y2="-1.5875" width="0.127" layer="21"/>
-<smd name="P$1" x="0" y="2.6988" dx="1.524" dy="1.4224" layer="1"/>
-<smd name="P$2" x="0" y="-2.6988" dx="1.524" dy="1.4224" layer="1"/>
-<text x="-2.54" y="3.81" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="TS">
-<wire x1="0" y1="-3.175" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="3.175" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-0.635" y2="0" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="1.905" x2="-3.81" y2="1.905" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="1.905" x2="-5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-1.905" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-5.08" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="0" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
-<text x="-5.715" y="-1.905" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="-3.175" y="3.175" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="P" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="S" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TMAV433BAA" prefix="P">
-<gates>
-<gate name="G$1" symbol="TS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TMAV433BAA">
-<connects>
-<connect gate="G$1" pin="P" pad="P$1"/>
-<connect gate="G$1" pin="S" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply2">
 <packages>
 </packages>
@@ -12789,40 +12717,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TL3340AF160QG
 <library name="con-cuistack">
 <description>Audio connectors made by Cui Stack</description>
 <packages>
-<package name="SJ-2523-SMT">
-<wire x1="2.5" y1="-6" x2="2.5" y2="1" width="0.127" layer="21"/>
-<wire x1="2.5" y1="1" x2="2.5" y2="2" width="0.127" layer="21"/>
-<wire x1="2.5" y1="2" x2="2.5" y2="6" width="0.127" layer="21"/>
-<wire x1="2.5" y1="6" x2="-2.5" y2="6" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="6" x2="-2.5" y2="2" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="2" x2="-2.5" y2="1" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="1" x2="-2.5" y2="-6" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-6" x2="-2" y2="-6" width="0.127" layer="21"/>
-<wire x1="-2" y1="-6" x2="2" y2="-6" width="0.127" layer="21"/>
-<wire x1="2" y1="-6" x2="2.5" y2="-6" width="0.127" layer="21"/>
-<wire x1="-2" y1="-6" x2="-2" y2="-7.3" width="0.127" layer="21"/>
-<wire x1="-2" y1="-7.3" x2="-1.8" y2="-7.5" width="0.127" layer="21"/>
-<wire x1="-1.8" y1="-7.5" x2="1.8" y2="-7.5" width="0.127" layer="21"/>
-<wire x1="1.8" y1="-7.5" x2="2" y2="-7.3" width="0.127" layer="21"/>
-<wire x1="2" y1="-7.3" x2="2" y2="-6" width="0.127" layer="21"/>
-<wire x1="-2" y1="-7.3" x2="2" y2="-7.3" width="0.07" layer="21"/>
-<wire x1="2.5" y1="2" x2="2.8" y2="2" width="0.07" layer="21"/>
-<wire x1="2.8" y1="2" x2="2.8" y2="1" width="0.07" layer="21"/>
-<wire x1="2.8" y1="1" x2="2.5" y2="1" width="0.07" layer="21"/>
-<wire x1="-2.5" y1="2" x2="-2.8" y2="2" width="0.07" layer="21"/>
-<wire x1="-2.8" y1="2" x2="-2.8" y2="1" width="0.07" layer="21"/>
-<wire x1="-2.8" y1="1" x2="-2.5" y2="1" width="0.07" layer="21"/>
-<smd name="1" x="3.5" y="-4.3" dx="2.5" dy="2.4" layer="1"/>
-<smd name="2" x="3.5" y="5.4" dx="2.5" dy="2.4" layer="1"/>
-<smd name="3" x="-3.5" y="-1.6" dx="2.5" dy="2.4" layer="1"/>
-<text x="-1.27" y="-5.08" size="1.27" layer="25" rot="R90">&gt;Name</text>
-<text x="2.54" y="-5.08" size="1.27" layer="27" rot="R90">&gt;Value</text>
-<rectangle x1="-3.95" y1="-2.2" x2="-2.5" y2="-1" layer="21"/>
-<rectangle x1="2.5" y1="-4.9" x2="3.95" y2="-3.7" layer="21"/>
-<rectangle x1="2.5" y1="4.85" x2="3.95" y2="6.05" layer="21"/>
-<hole x="0" y="-3" drill="1"/>
-<hole x="0" y="3" drill="1"/>
-</package>
 <package name="SJ-2503">
 <hole x="0" y="0" drill="1.2"/>
 <pad name="1" x="-2.4" y="0" drill="1" diameter="1.6764"/>
@@ -12845,28 +12739,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TL3340AF160QG
 </package>
 </packages>
 <symbols>
-<symbol name="KS-S3">
-<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="2.54" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-7.62" x2="-10.16" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="-3.175" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-2.54" x2="-3.81" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-6.35" y1="2.54" x2="-3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-3.175" y2="0.635" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-5.08" x2="1.27" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="3.81" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="3.81" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="2.54" x2="-6.35" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-5.08" x2="-3.81" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-5.08" x2="3.81" y2="2.54" width="0.254" layer="94"/>
-<circle x="-10.16" y="-5.08" radius="0.127" width="0.4064" layer="94"/>
-<circle x="-10.16" y="2.54" radius="0.127" width="0.4064" layer="94"/>
-<text x="-7.62" y="3.81" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="TIP" x="-12.7" y="2.54" visible="pad" length="short" direction="pas"/>
-<pin name="RING" x="-12.7" y="-5.08" visible="pad" length="short" direction="pas"/>
-<pin name="EARTH" x="-12.7" y="-7.62" visible="pad" length="short" direction="pas"/>
-</symbol>
 <symbol name="SJ-2503A">
 <wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-5.08" x2="2.54" y2="-7.62" width="0.1524" layer="94"/>
@@ -12897,24 +12769,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TL3340AF160QG
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SJ-2523">
-<description>2.5 Stereo Audio Jack (SMT)</description>
-<gates>
-<gate name="G$1" symbol="KS-S3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-SMT" package="SJ-2523-SMT">
-<connects>
-<connect gate="G$1" pin="EARTH" pad="1"/>
-<connect gate="G$1" pin="RING" pad="3"/>
-<connect gate="G$1" pin="TIP" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="SJ-2503A">
 <gates>
 <gate name="SJ-2503A" symbol="SJ-2503A" x="0" y="0"/>
@@ -13002,7 +12856,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TL3340AF160QG
 <part name="Q1" library="crystal-epson" deviceset="FA-20H" device="" value="FA-20H(32MHz)"/>
 <part name="L8" library="rcl-2" deviceset="L-EU" device="L0402" value="3N0"/>
 <part name="V1" library="supply" deviceset="VDD" device=""/>
-<part name="P2" library="switch-misc" deviceset="TMAV433BAA" device=""/>
 <part name="FRAME2" library="frames" deviceset="DINA3_L" device=""/>
 <part name="C4" library="resistor" deviceset="C-EU" device="C0402" value="2,2µF"/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
@@ -13129,10 +12982,13 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TL3340AF160QG
 <part name="S1" library="SamacSys_Parts" deviceset="TL3340AF160QG" device=""/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="GND42" library="supply1" deviceset="GND" device=""/>
-<part name="U$6" library="con-cuistack" deviceset="SJ-2523" device="-SMT"/>
 <part name="GND55" library="supply1" deviceset="GND" device=""/>
 <part name="U$7" library="con-cuistack" deviceset="SJ-2503A" device=""/>
 <part name="GND60" library="supply1" deviceset="GND" device=""/>
+<part name="S2" library="SamacSys_Parts" deviceset="TL3340AF160QG" device=""/>
+<part name="GND61" library="supply1" deviceset="GND" device=""/>
+<part name="GND62" library="supply1" deviceset="GND" device=""/>
+<part name="GND63" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13415,6 +13271,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TL3340AF160QG
 <instance part="LED1" gate="G$1" x="177.8" y="151.13"/>
 <instance part="U$3" gate="G$1" x="78.74" y="129.54"/>
 <instance part="SUPPLY2" gate="GND" x="104.14" y="116.84" rot="R90"/>
+<instance part="GND62" gate="1" x="181.61" y="130.81" rot="R270"/>
+<instance part="GND63" gate="1" x="181.61" y="128.27" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -13475,6 +13333,14 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TL3340AF160QG
 <pinref part="C20" gate="G$1" pin="2"/>
 <pinref part="SUPPLY31" gate="GND" pin="GND"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="CHGEN"/>
+<pinref part="GND62" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="LDOEN"/>
+<pinref part="GND63" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="VBAT" class="0">
 <segment>
@@ -13517,11 +13383,14 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TL3340AF160QG
 <wire x1="180.34" y1="116.84" x2="184.15" y2="120.65" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$33" class="0">
+<net name="!CHRG" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="CHRG"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="184.15" y1="135.89" x2="177.8" y2="135.89" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="135.89" x2="156.21" y2="135.89" width="0.1524" layer="91"/>
+<junction x="177.8" y="135.89"/>
+<label x="156.21" y="135.89" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -13557,7 +13426,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TL3340AF160QG
 <instance part="GND2" gate="1" x="247.65" y="13.97"/>
 <instance part="C7" gate="G$1" x="149.86" y="198.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="148.336" y="200.279" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="153.416" y="195.199" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="157.226" y="196.469" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C12" gate="G$1" x="254" y="24.13" rot="R180"/>
 <instance part="GND6" gate="1" x="254" y="13.97"/>
@@ -13655,7 +13524,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TL3340AF160QG
 <instance part="X4" gate="-10" x="29.21" y="173.99" rot="R180"/>
 <instance part="GND37" gate="1" x="34.29" y="148.59" rot="R90"/>
 <instance part="GND39" gate="1" x="334.01" y="62.23"/>
-<instance part="GND40" gate="1" x="312.42" y="62.23"/>
+<instance part="GND40" gate="1" x="295.91" y="63.5" rot="R90"/>
 <instance part="R45" gate="G$1" x="334.01" y="82.55" rot="R270"/>
 <instance part="Q1" gate="G$1" x="213.36" y="143.51" smashed="yes">
 <attribute name="NAME" x="219.71" y="145.796" size="1.778" layer="95"/>
@@ -13663,7 +13532,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TL3340AF160QG
 </instance>
 <instance part="L8" gate="G$1" x="323.85" y="167.64" rot="R90"/>
 <instance part="V1" gate="G$1" x="34.29" y="163.83" rot="R270"/>
-<instance part="P2" gate="G$1" x="312.42" y="69.85"/>
 <instance part="Q2" gate="Q" x="153.67" y="149.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="151.13" y="151.384" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="165.1" y="151.13" size="1.778" layer="96" rot="R180"/>
@@ -13719,10 +13587,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TL3340AF160QG
 <instance part="S1" gate="G$1" x="273.05" y="78.74"/>
 <instance part="GND34" gate="1" x="295.91" y="78.74" rot="R90"/>
 <instance part="GND42" gate="1" x="273.05" y="81.28" rot="R180"/>
-<instance part="U$6" gate="G$1" x="233.68" y="229.87"/>
 <instance part="GND55" gate="1" x="220.98" y="219.71"/>
 <instance part="U$7" gate="SJ-2503A" x="266.7" y="229.87"/>
 <instance part="GND60" gate="1" x="254" y="219.71"/>
+<instance part="S2" gate="G$1" x="273.05" y="63.5"/>
+<instance part="GND61" gate="1" x="273.05" y="66.04" rot="R180"/>
 </instances>
 <busses>
 <bus name="DEBUG:DC,DD">
@@ -13830,10 +13699,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TL3340AF160QG
 <pinref part="L2" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="GND40" gate="1" pin="GND"/>
-<pinref part="P2" gate="G$1" pin="P"/>
-</segment>
-<segment>
 <pinref part="C37" gate="G$1" pin="1"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="140.97" y1="152.4" x2="140.97" y2="149.86" width="0.1524" layer="91"/>
@@ -13885,12 +13750,16 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TL3340AF160QG
 <pinref part="GND42" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="EARTH"/>
-<pinref part="GND55" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="U$7" gate="SJ-2503A" pin="1"/>
 <pinref part="GND60" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="S2" gate="G$1" pin="3"/>
+<pinref part="GND40" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="S2" gate="G$1" pin="1"/>
+<pinref part="GND61" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -14136,21 +14005,14 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TL3340AF160QG
 </net>
 <net name="SW1" class="0">
 <segment>
-<label x="312.42" y="90.17" size="1.016" layer="95" xref="yes"/>
-<label x="257.81" y="76.2" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="P2" gate="G$1" pin="S"/>
-<wire x1="312.42" y1="74.93" x2="312.42" y2="90.17" width="0.1524" layer="91"/>
 <wire x1="273.05" y1="76.2" x2="257.81" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="S1" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<label x="152.4" y="193.04" size="1.016" layer="95" rot="R180" xref="yes"/>
+<label x="260.35" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="162.56" y1="193.04" x2="152.4" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="CC2540" pin="P0.0"/>
+<label x="156.21" y="193.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -14285,10 +14147,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TL3340AF160QG
 <wire x1="204.47" y1="231.14" x2="204.47" y2="232.41" width="0.1524" layer="91"/>
 <label x="204.47" y="231.14" size="1.4224" layer="95"/>
 <pinref part="R15" gate="G$1" pin="1"/>
-<pinref part="U$6" gate="G$1" pin="TIP"/>
 <junction x="220.98" y="232.41"/>
-<pinref part="U$7" gate="SJ-2503A" pin="2"/>
-<wire x1="254" y1="232.41" x2="220.98" y2="232.41" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="SJ-2503A" pin="3"/>
+<wire x1="248.92" y1="232.41" x2="220.98" y2="232.41" width="0.1524" layer="91"/>
+<wire x1="254" y1="227.33" x2="248.92" y2="227.33" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="227.33" x2="248.92" y2="232.41" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$50" class="0">
@@ -14339,7 +14202,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TL3340AF160QG
 <wire x1="190.5" y1="255.27" x2="190.5" y2="252.73" width="0.1524" layer="91"/>
 <label x="193.04" y="257.81" size="1.4224" layer="95" rot="R180"/>
 <wire x1="210.82" y1="224.79" x2="220.98" y2="224.79" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="RING"/>
 <label x="204.47" y="224.79" size="1.778" layer="95"/>
 <wire x1="243.84" y1="224.79" x2="254" y2="224.79" width="0.1524" layer="91"/>
 <label x="237.49" y="224.79" size="1.778" layer="95"/>
@@ -14370,6 +14232,23 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TL3340AF160QG
 <pinref part="SUPPLY6" gate="+5V" pin="+5V"/>
 <wire x1="309.88" y1="241.3" x2="317.5" y2="241.3" width="0.1524" layer="91"/>
 <junction x="317.5" y="241.3"/>
+</segment>
+</net>
+<net name="SW2" class="0">
+<segment>
+<pinref part="IC1" gate="CC2540" pin="P0.1"/>
+<wire x1="162.56" y1="190.5" x2="152.4" y2="190.5" width="0.1524" layer="91"/>
+<label x="156.21" y="190.5" size="1.778" layer="95"/>
+<wire x1="273.05" y1="60.96" x2="262.89" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="S2" gate="G$1" pin="2"/>
+<label x="262.89" y="60.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="!CHRG" class="0">
+<segment>
+<wire x1="162.56" y1="180.34" x2="140.97" y2="180.34" width="0.1524" layer="91"/>
+<label x="140.97" y="180.34" size="1.778" layer="95"/>
+<pinref part="IC1" gate="CC2540" pin="P0.5"/>
 </segment>
 </net>
 </nets>
