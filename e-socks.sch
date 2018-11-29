@@ -12867,11 +12867,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TL3340AF160QG
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="R21" library="rcl" deviceset="R-EU_" device="R0402" value="150K"/>
 <part name="R22" library="rcl" deviceset="R-EU_" device="R0402" value="430K"/>
-<part name="C11" library="rcl" deviceset="C-EU" device="C0402" value="100nF"/>
-<part name="R20" library="rcl" deviceset="R-EU_" device="R0402" value="4K7k"/>
+<part name="C11" library="rcl" deviceset="C-EU" device="C0402" value="220nF"/>
+<part name="R20" library="rcl" deviceset="R-EU_" device="R0402" value="1k"/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY29" library="supply2" deviceset="GND" device=""/>
-<part name="R19" library="rcl" deviceset="R-EU_" device="R0402" value="4K7"/>
+<part name="R19" library="rcl" deviceset="R-EU_" device="R0402" value="1K2"/>
 <part name="SUPPLY30" library="supply2" deviceset="GND" device=""/>
 <part name="C20" library="resistor" deviceset="C-EU" device="C0402" value="2,2µF"/>
 <part name="SUPPLY31" library="supply2" deviceset="GND" device=""/>
@@ -12924,7 +12924,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TL3340AF160QG
 <part name="R14" library="rcl" deviceset="R-EU_" device="R0402" value="220R"/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="R0402" value="47R"/>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
-<part name="R16" library="rcl" deviceset="R-EU_" device="R0402" value="10K"/>
+<part name="R16" library="rcl" deviceset="R-EU_" device="R0402" value="24K"/>
 <part name="R17" library="rcl" deviceset="R-EU_" device="R0402" value="10K"/>
 <part name="C36" library="rcl" deviceset="C-EU" device="C0402" value="12pF"/>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
@@ -12939,7 +12939,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TL3340AF160QG
 <part name="FRAME4" library="frames" deviceset="DINA4_L" device=""/>
 <part name="U$3" library="microusb1" deviceset="MICRO-USB" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0402" value="47R"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0402" value="100k"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="10µF"/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
@@ -12947,7 +12947,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TL3340AF160QG
 <part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="22µF"/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0402" value="47R"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0402" value="360k"/>
 <part name="V13" library="supply0" deviceset="VBAT" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="+5V" device=""/>
 <part name="IC4" library="micrel" deviceset="MIC94040" device=""/>
@@ -12989,6 +12989,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TL3340AF160QG
 <part name="GND61" library="supply1" deviceset="GND" device=""/>
 <part name="GND62" library="supply1" deviceset="GND" device=""/>
 <part name="GND63" library="supply1" deviceset="GND" device=""/>
+<part name="R9" library="rcl" deviceset="R-EU_" device="R0402" value="4K"/>
+<part name="GND64" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14316,6 +14318,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TL3340AF160QG
 <instance part="GND33" gate="1" x="154.94" y="127"/>
 <instance part="R8" gate="G$1" x="154.94" y="144.78" rot="R270"/>
 <instance part="LED4" gate="G$1" x="154.94" y="135.89"/>
+<instance part="R9" gate="G$1" x="68.58" y="119.38" rot="R90"/>
+<instance part="GND64" gate="1" x="68.58" y="111.76"/>
 </instances>
 <busses>
 <bus name="ERM:EN,PWM1,PWM2">
@@ -14394,6 +14398,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TL3340AF160QG
 <pinref part="LED4" gate="G$1" pin="C"/>
 <wire x1="154.94" y1="130.81" x2="154.94" y2="129.54" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="GND64" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="N$4" class="0">
 <segment>
@@ -14428,9 +14436,12 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TL3340AF160QG
 <pinref part="IC7" gate="TPS61230A" pin="EN"/>
 </segment>
 <segment>
-<wire x1="81.28" y1="124.46" x2="67.31" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="124.46" x2="68.58" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <label x="69.85" y="124.46" size="1.4224" layer="95"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="124.46" x2="67.31" y2="124.46" width="0.1524" layer="91"/>
+<junction x="68.58" y="124.46"/>
 </segment>
 </net>
 <net name="+5V" class="0">

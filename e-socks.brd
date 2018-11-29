@@ -29,7 +29,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -2229,9 +2229,9 @@ Covered vias can be set in Masks (Limit).
 <element name="U$1" library="LinearTechnology" package="LTC4063" value="LTC4063" x="11.08325" y="24.303"/>
 <element name="R21" library="rcl" package="R0402" value="150K" x="13.02675" y="20.34325" rot="R90"/>
 <element name="R22" library="rcl" package="R0402" value="430K" x="11.88575" y="20.379" rot="R270"/>
-<element name="C11" library="rcl" package="C0402" value="100nF" x="12.016" y="28.0055" rot="R270"/>
-<element name="R20" library="rcl" package="R0402" value="4K7k" x="10.81875" y="28.1405" rot="R90"/>
-<element name="R19" library="rcl" package="R0402" value="4K7" x="9.689" y="27.97925" rot="R90"/>
+<element name="C11" library="rcl" package="C0402" value="220nF" x="12.016" y="28.0055" rot="R270"/>
+<element name="R20" library="rcl" package="R0402" value="1k" x="10.81875" y="28.1405" rot="R90"/>
+<element name="R19" library="rcl" package="R0402" value="1K2" x="9.689" y="27.97925" rot="R90"/>
 <element name="C20" library="resistor" package="C0402" value="2,2µF" x="9.898" y="20.74225" rot="R180"/>
 <element name="R4" library="rcl" package="R0402" value="220R" x="2.555" y="24.06375" rot="MR180"/>
 <element name="C26" library="rcl" package="C0402" value="100nF" x="33.68925" y="22.521" smashed="yes" rot="R270">
@@ -2287,7 +2287,7 @@ Covered vias can be set in Masks (Limit).
 <element name="LED2" library="led" package="CHIP-LED0603" value="Blue/2.9V@10mA" x="64.135003125" y="22.2622" rot="MR180"/>
 <element name="R14" library="rcl" package="R0402" value="220R" x="32.784596875" y="12.8719" rot="R180"/>
 <element name="R15" library="rcl" package="R0402" value="47R" x="9.162596875" y="2.17759375"/>
-<element name="R16" library="rcl" package="R0402" value="10K" x="41.4655" y="17.145" rot="R270"/>
+<element name="R16" library="rcl" package="R0402" value="24K" x="41.4655" y="17.145" rot="R270"/>
 <element name="R17" library="rcl" package="R0402" value="10K" x="39.788196875" y="17.76910625"/>
 <element name="C36" library="rcl" package="C0402" value="12pF" x="42.545" y="17.145" rot="R90"/>
 <element name="IC5" library="micrel" package="MIC94040" value="" x="10.7315" y="6.2865"/>
@@ -2295,11 +2295,11 @@ Covered vias can be set in Masks (Limit).
 <element name="C42" library="rcl" package="C0402" value="1nF" x="10.795" y="4.0268"/>
 <element name="R18" library="rcl" package="R0402" value="220R" x="32.7737" y="14.1047" rot="R180"/>
 <element name="U$3" library="microusb1" package="MICRO-USB" value="MICRO-USB" x="0" y="24.765" rot="R270"/>
-<element name="R3" library="rcl" package="R0402" value="47R" x="3.683" y="10.541" rot="R180"/>
+<element name="R3" library="rcl" package="R0402" value="100k" x="3.683" y="10.541" rot="R180"/>
 <element name="C2" library="rcl" package="C0603" value="10µF" x="8.636" y="14.351" rot="R90"/>
 <element name="C5" library="rcl" package="C0805" value="22µF" x="10.9855" y="10.7315" rot="R270"/>
 <element name="C6" library="rcl" package="C0805" value="22µF" x="12.8905" y="10.795" rot="R270"/>
-<element name="R5" library="rcl" package="R0402" value="47R" x="4.318" y="8.636" rot="R90"/>
+<element name="R5" library="rcl" package="R0402" value="360k" x="4.318" y="8.636" rot="R90"/>
 <element name="IC4" library="micrel" package="MIC94040" value="" x="21.336" y="10.0965"/>
 <element name="C8" library="rcl" package="C0402" value="1nF" x="23.1775" y="9.906" rot="R270"/>
 <element name="IC6" library="micrel" package="MIC94040" value="" x="20.447" y="19.939" rot="R180"/>
@@ -2331,6 +2331,7 @@ Covered vias can be set in Masks (Limit).
 <attribute name="MANUFACTURER_NAME" value="E-Switch" x="64.3255" y="26.924" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TL3340AF160QG" x="64.3255" y="26.924" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
+<element name="R9" library="rcl" package="R0402" value="4K" x="29.9085" y="17.907"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2579,6 +2580,7 @@ Covered vias can be set in Masks (Limit).
 <via x="61.881684375" y="29.132509375" extent="1-16" drill="0.3"/>
 <contactref element="U$1" pad="P5"/>
 <contactref element="U$1" pad="P4"/>
+<contactref element="R9" pad="1"/>
 </signal>
 <signal name="N$28">
 <contactref element="IC1" pad="40"/>
@@ -3403,6 +3405,8 @@ Covered vias can be set in Masks (Limit).
 <via x="5.2705" y="10.2235" extent="1-16" drill="0.3"/>
 <wire x1="6.085" y1="10.418" x2="5.465" y2="10.418" width="0.254" layer="1"/>
 <wire x1="5.465" y1="10.418" x2="5.2705" y2="10.2235" width="0.254" layer="1"/>
+<contactref element="R9" pad="2"/>
+<wire x1="32.116" y1="17.907" x2="30.5585" y2="17.907" width="0.15" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R6" pad="2"/>
